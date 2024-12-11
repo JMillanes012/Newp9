@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';  // Import Routes here
+import { Route, Routes } from 'react-router-dom';  // Import Routes here
 import Navbar from './components/navbar.jsx';  // Assuming navbar.jsx is in the components folder
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,9 +9,12 @@ import Hobbies from './pages/Hobbies.jsx';
 import Contact from './pages/Contact.jsx'; 
 import Education from './pages/Education.jsx';
 
+// Import the Router from react-router-dom
+import { Router } from 'react-router-dom';
+
 function App() {
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,8 +26,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
-
-
-
-
