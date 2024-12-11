@@ -1,0 +1,56 @@
+/* Home.css */
+#bg {
+    background-image: url('https://i.pinimg.com/originals/d6/19/53/d619531e8ab58b2056388e6eb66f104b.gif'); /* Adjust path if necessary */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(200, 199, 203, 0.6); /* semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.931);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-btn {
+    background-color: #6200ea;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #f9f8fa;
+}

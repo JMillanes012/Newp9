@@ -1,0 +1,54 @@
+
+
+
+/* Example CSS for Contact component */
+.contact-container {
+  color: black;
+  padding: 20px;  /* Adds space around content */
+  margin-top: 0px; /* Space at the top */
+}
+
+.contact-container h1 {
+  margin-bottom: 20px; /* Adds space below the title */
+}
+
+.contact-container p {
+  margin-bottom: 15px; /* Adds space between paragraphs */
+}
+
+.text-center {
+  text-align: center;
+}
+
+#Contact{
+  background-image: url('https://i.pinimg.com/originals/30/6a/18/306a1898b5874eb0cf315adccabdd6ad.gif');
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Example CSS for Contact component */
+.education-container {
+  color: black;
+  padding: 20px;  /* Adds space around content */
+  margin-top: 50px; /* Space at the top */
+}
+
+.education-container h1 {
+  margin-bottom: 20px; /* Adds space below the title */
+}
+
+.education-container p {
+  margin-bottom: 15px; /* Adds space between paragraphs */
+}
+
+.text-center {
+  text-align: center;
+}
+
+#Education{
+  background-image: url('https://i.pinimg.com/originals/ef/01/6a/ef016a70203a65530513a72098835eb6.gif');
+  background-size: cover;
+  height: 100vh;
+}
+
+
