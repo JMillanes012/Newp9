@@ -7,13 +7,13 @@ function Hobbies() {
               <Carousel.Item>
                   <img
                       className="d-block w-100"
-                      src="https://wallpapers.com/images/featured/crossfire-9nrqsd2qyhwbo7fq.jpg"
+                      src="https://i.pinimg.com/originals/09/5c/57/095c57423b03fb7dbc08414eb53a7edd.gif"
                       alt="Crossfire PH"
                   />
                   <Carousel.Caption>
-                      <h5 style={{ color: 'white' }}>Crossfire PH</h5>
+                      <h5 style={{ color: 'white' }}>League of Legends</h5>
                       <p style={{ color: 'white' }}>
-                          I started playing Crossfire PH when I was 8 years old. It has helped me cope with fatigue and stress, providing me with peace of mind.
+                         i love playing League of Legends when i was a kid and until now.
                       </p>
                   </Carousel.Caption>
               </Carousel.Item>
